@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
+		<title>Mi portafolio online</title>
+		<!-- ../ sirve para salirte de la carpeta donde estas e irte a raiz  -->
+		<link rel="stylesheet"  href="static/css/normalize.css">
+		<link rel="stylesheet"  href="static/css/style.css">
+	</head>
+	<body>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item" >
+						<a class="MainMenu-link" href="#yo">Yo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil" >Mi perfil</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+				</nav>
+				<figure class="Header-imageContainer">
+					<img src="static/images/avatar.jpg" alt="Imagen personal" class="Header-image"/>
+					<figcaption class="Header-imageDescription">
+						<a class="Header-link" href="https://twitter.com/ZarragaSeul" target="_blank">@seulZarraga</a>
+					</figcaption>		
+				</figure>	
+				<p class="Header-name">Seul Zarraga Espinosa</p>		
+		</header>
+		<section id="perfil" class="Profile" >
+			<h2 class="Profile-title u-title" >Mi perfil</h2>
+			<p class="Profile-description">Hola soy seul, aqui <span class="Profile-span">tengo</span> que poner mi descripcion</p>
+			<a class="Profile-link linkedin icon-linkedin" href="https://www.linkedin.com/profile/view?id=409322236&trk=nav_responsive_tab_profile">Seul Zarraga</a>
+			<a class="Profile-link facebook icon-facebook2" href="https://www.facebook.com/profile.php?id=100009266665822" target="_blank">Seul Zarraga</a>
+			<a class="Profile-link github icon-github" href="https://github.com/seulZarraga" target="_blank">seulZarraga</a>
+		</section>	
+		<section id="trabajo" class="Work">
+			<h2 class=" Work-title u-title">Mi trabajo</h2>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/proyecto.jpg" alt="Es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Seul Zarraga Espinosa</figcaption>
+				</figure>
+			</article>	
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/proyecto.jpg" alt="Es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Seul Zarraga Espinosa</figcaption>
+				</figure>
+			</article>	
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/proyecto.jpg" alt="Es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Seul Zarraga Espinosa</figcaption>
+				</figure>
+			</article>	
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/proyecto.jpg" alt="Es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Seul Zarraga Espinosa</figcaption>
+				</figure>
+			</article>	
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img  class="Work-image"src="static/images/proyecto.jpg" alt="Es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Seul Zarraga Espinosa</figcaption>
+				</figure>
+			</article>	
+		</section>
+		<footer class="Footer" id="contacto">
+			<div class="Footer-left">
+			<h3 class="Footer-title">Contacto</h3>
+			<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+			</div>
+			<form class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="nombre"/>
+				<input class="Footer-formInput" type="email" placeholder="email"/>
+				<textarea class="Footer-textarea" placeholder="motivo"></textarea>
+				<button class="Footer-button" type="submit">Contactarme</button>
+			</form>
+		</footer>
+		
+	</body>
+</html>

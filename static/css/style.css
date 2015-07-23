@@ -1,3 +1,252 @@
 /* header es un selector de etiqueta 
-
+	#yo selector de id
+	.Header selector de clases
+	ul > li selector de li hijos directos
+	section + section selector adyascente
+	[href="#yo"] selector de atributos
 */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-j0hgzf');
+	src:url('../fonts/icomoon.eot?#iefix-j0hgzf') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-j0hgzf') format('truetype'),
+		url('../fonts/icomoon.woff?-j0hgzf') format('woff'),
+		url('../fonts/icomoon.svg?-j0hgzf#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+	content: "\e600";
+	margin: 0 .2em 0 0;
+}
+.icon-twitter:before {
+	content: "\e601";
+	margin: 0 .2em 0 0;
+}
+.icon-github:before {
+	content: "\e602";
+	margin: 0 .2em 0 0;
+}
+.icon-linkedin:before {
+	content: "\e603";
+	margin: 0 .2em 0 0;
+}
+/* Utilities*/
+.u-title{
+	border-bottom: 2px dashed #00CCFF;
+	color: #00CCFF;
+	font-weight: normal;
+	padding-bottom: .5em;
+	text-align: center;
+
+}
+
+/* Main Menu*/
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+.MainMenu-list{
+	padding: 0;
+	margin: 0;
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-link{
+	color: #00DBFF;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+	text-decoration: none;
+}
+
+/* Header*/
+
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 5em 0 0 0;
+}
+.Header-image{
+	border: 5px solid white;
+	border-radius: 50%;
+}
+.Header-imageContainer{
+	margin: 0;
+}
+.Header-name,
+.Header-link{
+	color: white;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0;
+}
+
+/* Profile*/
+
+.Profile{
+	text-align: center;
+	padding: 0;
+	/*padding: 3em 0 0 0;*/
+}
+.Profile-link{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+.Profile-link.linkedin{
+	background: #006fa6;
+}
+.Profile-link.facebook{
+	background: #4862a3;
+	
+}
+.Profile-link.github{
+	background: #333;
+	
+}
+ /*Work*/
+.Work{
+	margin-top: 3em;
+	text-align: center;
+	/*padding: 3em 0 0 0;*/
+}
+.Work-item{
+	display: inline-block;
+	margin-right:1.8em; 
+	margin-bottom: 1.8em;
+}
+.Work-imageContainer{
+	margin: 0;
+}
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+
+}
+
+/*Footer*/
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+.Footer-left{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+.Footer-title{
+	color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .8em 0 .8em .5em;
+	margin: 0 auto 1em;
+}
+.Footer-textarea{
+	resize: none;
+}
+.Footer-button{
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 1em;
+	padding: .5em 1em;
+}
+@media screen and (max-width: 510px){
+	.Profile-link{
+	display: inline-block;
+	margin: .5em 0 0 0;
+}
+
+.MainMenu{
+	position: relative;
+	
+}
+.Header{
+	margin-top: 0;
+	padding: 0;
+}
+
+.Footer-left{
+	width: inherit;
+}
+
+}
+
+@media screen and (max-width: 300px){
+	.Profile-link{
+	display: inline-block;
+	margin: .5em 0 0 0;
+}
+
+.MainMenu{
+	display: none;
+	
+}
+
+.Header{
+	margin-top: 0;
+	padding: 0;
+}
+
+.Footer-left{
+	width: inherit;
+}
+
+}
