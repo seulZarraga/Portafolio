@@ -156,6 +156,10 @@
 	background: #333;
 	
 }
+.Profile-link.google 
+{
+	background: #DD4B39;
+}
  /*Work*/
 .Work{
 	margin-top: 3em;
