@@ -7,11 +7,11 @@
 */
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-j0hgzf');
-	src:url('../fonts/icomoon.eot?#iefix-j0hgzf') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?-j0hgzf') format('truetype'),
-		url('../fonts/icomoon.woff?-j0hgzf') format('woff'),
-		url('../fonts/icomoon.svg?-j0hgzf#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-6ctox2');
+	src:url('../fonts/icomoon.eot?#iefix-6ctox2') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-6ctox2') format('truetype'),
+		url('../fonts/icomoon.woff?-6ctox2') format('woff'),
+		url('../fonts/icomoon.svg?-6ctox2#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -30,21 +30,33 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook2:before {
-	content: "\e600";
-	margin: 0 .2em 0 0;
-}
-.icon-twitter:before {
+.icon-box-add:before {
 	content: "\e601";
-	margin: 0 .2em 0 0;
+	margin-right: 3px;
+}
+.icon-link:before {
+	content: "\e602";
+	margin-right: 3px;
+}
+.icon-google-plus2:before {
+	content: "\e600";
+	margin-right: 3px;
+}
+.icon-facebook2:before {
+	content: "\e603";
+	margin-right: 3px;
+}
+.icon-twitter2:before {
+	content: "\e604";
+	margin-right: 3px;
 }
 .icon-github:before {
-	content: "\e602";
-	margin: 0 .2em 0 0;
+	content: "\e605";
+	margin-right: 3px;
 }
 .icon-linkedin:before {
-	content: "\e603";
-	margin: 0 .2em 0 0;
+	content: "\e606";
+	margin-right: 3px;
 }
 /* Utilities*/
 .u-title{
