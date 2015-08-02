@@ -234,6 +234,7 @@ h1 {
 
  	.slider-wrapper {
  		height: 260px;
+ 		width: auto;
  	}
  }
 
@@ -246,6 +247,7 @@ h1 {
 
  	.slider-wrapper {
  		height: 200px;
+ 		width: auto;
  	}
 	
  	/*.slider-wrapper .caption {
