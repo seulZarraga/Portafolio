@@ -58,6 +58,12 @@
 	content: "\e606";
 	margin-right: 3px;
 }
+
+
+body
+{
+	background: #f1f1f1;
+}
 ul {
 	list-style-type: none;
 }
@@ -242,9 +248,9 @@ h1 {
  		height: 200px;
  	}
 	
- 	/*.slider-wrapper .caption {
+ 	.slider-wrapper .caption {
  		display: none;
- 	
+ 	}
 
  }
 
@@ -253,6 +259,8 @@ h1 {
  		height: 160px;
  	}
  }
+ /*------------------------------------------------*/
+
 /* Utilities*/
 .u-title{
 	border-bottom: 2px dashed #00CCFF;
@@ -310,7 +318,7 @@ h1 {
 }
 .Header-name,
 .Header-link{
-	color: white;
+	color: #DECFCF;
 }
 
 .Header-link{
@@ -334,11 +342,15 @@ h1 {
 }
 .Profile-link{
 	background: orange;
-	color: white;
-	text-decoration: none;
-	padding: .5em 1em;
 	border-radius: 2em;
-	margin-right: .5em;
+	color: white;
+	display: inline-block;
+	margin: 0.1em;
+	padding: .5em 1em;
+	text-decoration: none;
+	
+	
+	
 }
 .Profile-link.linkedin{
 	background: #006fa6;
@@ -351,15 +363,23 @@ h1 {
 	background: #333;
 	
 }
-.Profile-link.google 
+.Profile-link.twitter
 {
-	background: #DD4B39;
+	background: #55acee;
+}
+.Profile-link.google
+{
+	background: #D73D32;
 }
  /*Work*/
 .Work{
 	margin-top: 3em;
 	text-align: center;
 	/*padding: 3em 0 0 0;*/
+}
+.Work-image 
+{
+	width: 713px;
 }
 .Work-item{
 	display: inline-block;
