@@ -90,7 +90,7 @@ h1 {
 }
 
 .slider-wrapper {
-	z-index: 500;
+	z-index: -1;
 	position: relative;
 	width: 100%;
 	height: 360px;
@@ -458,7 +458,7 @@ h1 {
 }
 
 .MainMenu{
-	position: relative;
+	position: fixed;
 	
 }
 .Header{
@@ -478,10 +478,6 @@ h1 {
 	margin: .5em 0 0 0;
 }
 
-.MainMenu{
-	display: none;
-	
-}
 
 .Header{
 	margin-top: 0;
