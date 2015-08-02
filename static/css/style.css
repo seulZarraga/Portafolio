@@ -248,9 +248,9 @@ h1 {
  		height: 200px;
  	}
 	
- 	.slider-wrapper .caption {
- 		display: none;
- 	}
+ 	/*.slider-wrapper .caption {
+ 		font-size: 16px;
+ 	}*/
 
  }
 
@@ -260,7 +260,11 @@ h1 {
  	}
  }
  /*------------------------------------------------*/
-
+.caption p 
+{
+	font-weight: 300;
+	font-size: 1em;
+}
 /* Utilities*/
 .u-title{
 	border-bottom: 2px dashed #00CCFF;
