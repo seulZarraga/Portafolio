@@ -260,6 +260,12 @@ h1 {
  	}
  }
  /*------------------------------------------------*/
+.caption a
+{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
 .caption p 
 {
 	font-weight: 300;
