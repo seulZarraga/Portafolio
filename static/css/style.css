@@ -62,8 +62,43 @@
 
 body
 {
-	background: #f1f1f1;
+	background: #EEEEEE;
+	font-size: 16px;
 }
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #00c5b9;
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFF;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 2.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #00c5b9;
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFF;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 2.4em;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -90,7 +125,7 @@ h1 {
 }
 
 .slider-wrapper {
-	z-index: -1;
+	/*z-index: 500;*/
 	position: relative;
 	width: 100%;
 	height: 360px;
@@ -166,6 +201,12 @@ h1 {
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
+.slider-wrapper .caption a
+{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
 
 .slider-wrapper li:hover .caption {
 	-webkit-transform: translateY(0);
@@ -184,7 +225,7 @@ h1 {
 }
 
 .slider-wrapper p {
-	font-size: 1.6em;
+	font-size: .8em;
 	font-weight: 300;
 	line-height: 1.4em;
 }
@@ -249,9 +290,9 @@ h1 {
  		width: auto;
  	}
 	
- 	.slider-wrapper .caption {
- 		font-size: 1em;
- 	}
+ 	/*.slider-wrapper .caption {
+ 		display: none;
+ 	}*/
 
  }
 
@@ -260,7 +301,6 @@ h1 {
  		height: 160px;
  	}
  }
- /*------------------------------------------------*/
 
 /* Utilities*/
 .u-title{
@@ -281,6 +321,7 @@ h1 {
 	left: 0;
 	top: 0;
 	right: 0;
+	z-index: 1;
 
 }
 .MainMenu-list{
@@ -335,7 +376,13 @@ h1 {
 }
 
 /* Profile*/
-
+#perfil .Profile-description
+{
+	color: #515151;
+	font-size: 1.1em;
+	font-style: italic;
+	text-align: center;
+} 
 .Profile{
 	text-align: center;
 	padding: 0;
@@ -394,6 +441,7 @@ h1 {
 	font-size: 1.1em;
 	color: #515151;
 	font-style: italic;
+	text-align: center;
 
 }
 
