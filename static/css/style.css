@@ -120,7 +120,7 @@ h1 {
  * Slider 
  ----------------------------------------*/
 .container {
-	width: 800px;
+	width: 60%;
 	margin: 40px auto 0;
 }
 
@@ -132,6 +132,7 @@ h1 {
 	background: #FFF;
 	border: 5px solid #4b5973;
 	overflow: hidden;
+	padding: 0;
 }
 
 .slider-wrapper li {
@@ -172,14 +173,22 @@ h1 {
 	-o-transform: rotate(4deg);
 	transform: rotate(4deg);
 }
-
-.slider-wrapper img {
+#slider img
+{
 	position: absolute;
-	max-width: 100%;
+	height: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+/*.slider-wrapper img {
+	position: absolute;
+	width: 100%;
 	height: auto;
 	top: 0;
 	left: 0;
-}
+}*/
 
 /**
  * ---[Caption] ---------------------- 
@@ -311,7 +320,10 @@ h1 {
 	text-align: center;
 
 }
-
+#perfil .Profile-description .Profile.span
+{
+	font-weight: 400;
+}
 /* Main Menu*/
 .MainMenu{
 	background: #1E1E1E;
@@ -353,7 +365,7 @@ h1 {
 }
 .Header-image{
 	border: 5px solid white;
-	border-radius: 50%;
+	border-radius: 10px;
 }
 .Header-imageContainer{
 	margin: 0;
