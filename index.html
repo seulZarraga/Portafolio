@@ -90,14 +90,16 @@
 			<h3 class="Footer-title">Contacto</h3>
 			<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
 			</div>
-			<form class="Footer-form">
-				<input class="Footer-formInput" type="text" placeholder="nombre"/>
-				<input class="Footer-formInput" type="email" placeholder="email"/>
-				<textarea class="Footer-textarea" placeholder="motivo"></textarea>
+			<form name="contactForm" method="POST" action="static/php/contact-form-handler.php" class="Footer-form" autocomplate="off">
+				<input class="Footer-formInput" type="text" placeholder="nombre" name="name" id="name"/>
+				<input class="Footer-formInput" type="email" placeholder="correo" name="email" id="email"/>
+				<textarea class="Footer-textarea" placeholder="mensaje" name="message" id="message"></textarea>
 				<button class="Footer-button" type="submit">Contactarme</button>
 			</form>
 		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="static/js/slider.js"></script>
+		<script type="text/javascript" src="./static/js/gen_validatorv4.js"></script>
+		<script type="text/javascript" src="./static/js/validator.js"></script>
 	</body>
 </html>
