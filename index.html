@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
+		<title>Mi portafolio online</title>
+		<!-- ../ sirve para salirte de la carpeta donde estas e irte a raiz  -->
+		<link rel="stylesheet"  href="static/css/normalize.css">
+		<link rel="stylesheet"  href="static/css/style.css">
+	</head>
+	<body>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item" >
+						<a class="MainMenu-link" href="#yo">Yo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil" >Mi perfil</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+				</nav>
+				<figure class="Header-imageContainer">
+					<img src="static/images/avatar.jpg" alt="Imagen personal" class="Header-image"/>
+					<figcaption class="Header-imageDescription">
+						<a class="Header-link" href="https://twitter.com/ZarragaSeul" target="_blank">Seul Zarraga Espinosa</a>
+					</figcaption>		
+				</figure>			
+		</header>
+		<section id="perfil" class="Profile" >
+			<h2 class="Profile-title u-title" >Mi perfil</h2>
+			<p class="Profile-description"><span class="Profile-span">Web developer, frontend, freelancer.</span></br> Puedes seguirme en: </p>
+			<a class="Profile-link linkedin icon-linkedin" href="https://www.linkedin.com/profile/view?id=409322236&trk=nav_responsive_tab_profile">Seul Zarraga</a>
+			<a class="Profile-link facebook icon-facebook2" href="https://www.facebook.com/profile.php?id=100009266665822" target="_blank">Seul Zarraga</a>
+			<a class="Profile-link github icon-github" href="https://github.com/seulZarraga" target="_blank">seulZarraga</a>
+			<a class="Profile-link twitter icon-twitter2" href="https://twitter.com/ZarragaSeul" target="blank">@seulZarraga</a>
+			<a class="Profile-link google icon-google-plus2" href="https://plus.google.com/u/0/110538079650233622453/posts" target="blank">seul zarraga</a>
+		</section>	
+
+		<h2 class="Profile-title u-title" id="trabajo">Mi trabajo</h2>
+		<p class="Work-description">En el siguiente slider puedes encontrar algunos de los trabajos donde he colaborado</p>
+		<section id="slider" class="container">
+			<ul class="slider-wrapper">
+		<li class="current-slide">
+			<img src="static/images/dyc.jpg" title="" alt="">
+
+			<div class="caption">
+				<h2 class="slider-title">Desarrollo y Capital Humano</h2>
+				<a href="http://dychumano.com/" target="blank"><p>Ir a la pagina</p></a>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/images/dyc1.jpg" title="" alt="">
+
+			<div class="caption">
+				<h2 class="slider-title">Distribuidora DYC</h2>
+				<a href="http://distribuidoradyc.com.mx/" target="blank1"><p>Ir a la pagina</p></a>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/images/maswb.png" title="" alt="">
+
+			<div class="caption">
+				<h2 class="slider-title">Diseño y Desarrollo Web</h2>
+				<a href="http://maswb.com.mx/" target="blank2"><p>Ir a la pagina</p></a>
+			</div>
+		</li>
+		</ul>
+		<!-- Sombras -->
+		<!-- <div class="slider-shadow"></div> -->
+		
+		<!-- Controles de Navegacion -->
+		<ul id="control-buttons" class="control-buttons"></ul>
+		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/slider.js">
+		</script>
+
+		<footer class="Footer" id="contacto">
+			<div class="Footer-left">
+			<h3 class="Footer-title">Contacto</h3>
+			<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+			</div>
+			<form name="contactForm" method="POST" action="static/php/contact-form-handler.php" class="Footer-form" autocomplate="off">
+				<input class="Footer-formInput" type="text" placeholder="nombre" name="name" id="name"/>
+				<input class="Footer-formInput" type="email" placeholder="correo" name="email" id="email"/>
+				<textarea class="Footer-textarea" placeholder="mensaje" name="message" id="message"></textarea>
+				<button class="Footer-button" type="submit">Contactarme</button>
+			</form>
+		</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="static/js/slider.js"></script>
+		<script type="text/javascript" src="./static/js/gen_validatorv4.js"></script>
+		<script type="text/javascript" src="./static/js/validator.js"></script>
+	</body>
+</html>
